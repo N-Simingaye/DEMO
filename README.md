@@ -1,2 +1,1 @@
-# DEMO
-TESTER CODE
+# SFMLLinkTester

@@ -1,0 +1,9 @@
+﻿  Player.cpp
+  main.cpp
+Player.obj : error LNK2005: "void __cdecl rotation(double &,double &,double &)" (?rotation@@YAXAAN00@Z) already defined in main.obj
+Player.obj : error LNK2005: _main already defined in main.obj
+Game.obj : error LNK2001: unresolved external symbol "public: void __thiscall Player::render(class sf::RenderTarget *)" (?render@Player@@QAEXPAVRenderTarget@sf@@@Z)
+Game.obj : error LNK2001: unresolved external symbol "public: void __thiscall Player::update(class sf::RenderTarget *)" (?update@Player@@QAEXPAVRenderTarget@sf@@@Z)
+Game.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall Player::~Player(void)" (??1Player@@UAE@XZ)
+Game.obj : error LNK2001: unresolved external symbol "public: __thiscall Player::Player(float,float)" (??0Player@@QAE@MM@Z)
+C:\Users\Simingaye\source\repos\SFMLLinkTester\Release\SFMLLinkTester.exe : fatal error LNK1120: 4 unresolved externals
